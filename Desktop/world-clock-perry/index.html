@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Clock</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1 class="title">🌍 World Clock</h1>
+
+<div class="mode-container">
+
+    <span>Display Mode:</span>
+
+    <select id="mode">
+        <option value="both">Both</option>
+        <option value="digital">Digital</option>
+        <option value="analog">Analog</option>
+    </select>
+
+</div>
+
+<div class="grid">
+
+    <div class="card vn" data-zone="Asia/Ho_Chi_Minh">
+        <h3>🇻🇳 Hanoi, Vietnam</h3>
+        <div class="digital"></div>
+        <div class="date"></div>
+        <canvas width="200" height="200"></canvas>
+    </div>
+
+    <div class="card mm" data-zone="Asia/Yangon">
+        <h3>🇲🇲 Yangon, Myanmar</h3>
+        <div class="digital"></div>
+        <div class="date"></div>
+        <canvas width="200" height="200"></canvas>
+    </div>
+
+    <div class="card kr" data-zone="Asia/Seoul">
+        <h3>🇰🇷 Seoul, Korea</h3>
+        <div class="digital"></div>
+        <div class="date"></div>
+        <canvas width="200" height="200"></canvas>
+    </div>
+
+    <div class="card jp" data-zone="Asia/Tokyo">
+        <h3>🇯🇵 Tokyo, Japan</h3>
+        <div class="digital"></div>
+        <div class="date"></div>
+        <canvas width="200" height="200"></canvas>
+    </div>
+
+    <div class="card sg" data-zone="Asia/Singapore">
+        <h3>🇸🇬 Singapore</h3>
+        <div class="digital"></div>
+        <div class="date"></div>
+        <canvas width="200" height="200"></canvas>
+    </div>
+
+    <div class="card my" data-zone="Asia/Kuala_Lumpur">
+        <h3>🇲🇾 Kuala Lumpur</h3>
+        <div class="digital"></div>
+        <div class="date"></div>
+        <canvas width="200" height="200"></canvas>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
